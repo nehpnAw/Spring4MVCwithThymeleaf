@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>ThymeLeaf Success</title>
+	</head>
+
+	<body>
+	
+		<h1> Success </h1>
+		
+		<div>
+		
+			<h2 th:if="${user == 'A'}"> This username from helloagain </h2><h3 th:text="${user}"></h3>
+		
+		</div>
+		
+			<h2> This password from helloagain </h2><h3 th:text="${pass}"></h3>
+	
+	</body>
+
+</html>
